@@ -24,12 +24,13 @@
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
+    "dev": "node --watch --env-file=.env server.js",
     "test": ""
   },
   "dependencies": {
-    "20": "^3.1.9",
-    "express": "^4.21.1"
-  },
-  "devDependencies": {}
+    "20": "^1.0.0",
+    "22": "0.0.0",
+    "express": "^4.21.1",
+    "mongodb": "^6.11.0"
+  }
 }
